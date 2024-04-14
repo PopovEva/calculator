@@ -30,9 +30,9 @@ font-size: 18px;
 
 /* Стиль операторов */
 .operator {
+border-radius: 5px;
 font-size: 20px;
 padding: 10px 20px;
-margin: 5px;
 background-color: #dbbd43;
 color: white;
 }
