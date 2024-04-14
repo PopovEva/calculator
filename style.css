@@ -1,0 +1,63 @@
+/* Основной стиль */
+body {
+font-family: 'Arial', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #f4f4f4;
+}
+
+/* Стиль калькулятора */
+div {
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стиль кнопок */
+button {
+padding: 10px 20px;
+margin: 5px;
+border: none;
+border-radius: 5px;
+background-color: #ddd;
+cursor: pointer;
+font-size: 18px;
+}
+
+/* Стиль операторов */
+.operator {
+background-color: #f0b67f;
+color: white;
+}
+
+/* Стиль дисплея */
+#display {
+width: calc(100% - 20px);
+padding: 10px;
+margin-bottom: 20px;
+border: none;
+border-radius: 5px;
+background-color: #eee;
+font-size: 24px;
+text-align: right;
+}
+
+/* Стиль при наведении на кнопку */
+button:hover {
+background-color: #9edcbb;
+}
+button:active {
+background-color: #6ad7bd;
+}
+
+/* Стиль при нажатии на оператора */
+.operator:active {
+background-color: #9f3911;
+}
+.operator:hover {
+background-color: #f48f47;
+}
