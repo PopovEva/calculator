@@ -1,4 +1,3 @@
-/* Основной стиль */
 body {
 font-family: 'Arial', sans-serif;
 display: flex;
@@ -9,7 +8,6 @@ margin: 0;
 background-color: #928585;
 }
 
-/* Стиль калькулятора */
 div {
 background-color: #287a59;
 padding: 20px;
@@ -17,7 +15,6 @@ border-radius: 8px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Стиль кнопок */
 button {
 padding: 10px 20px;
 margin: 5px;
@@ -28,7 +25,6 @@ cursor: pointer;
 font-size: 18px;
 }
 
-/* Стиль операторов */
 .operator {
 border-radius: 5px;
 font-size: 20px;
@@ -37,7 +33,6 @@ background-color: #dbbd43;
 color: white;
 }
 
-/* Стиль дисплея */
 #display {
 width: calc(100% - 20px);
 padding: 10px;
@@ -49,7 +44,6 @@ font-size: 24px;
 text-align: right;
 }
 
-/* Стиль при наведении на кнопку */
 button:hover {
 background-color: #9edcbb;
 }
@@ -57,7 +51,6 @@ button:active {
 background-color: #6ad7bd;
 }
 
-/* Стиль при нажатии на оператора */
 .operator:active {
 background-color: #9f3911;
 }
