@@ -6,12 +6,12 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 margin: 0;
-background-color: #f4f4f4;
+background-color: #928585;
 }
 
 /* Стиль калькулятора */
 div {
-background-color: #fff;
+background-color: #287a59;
 padding: 20px;
 border-radius: 8px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -30,7 +30,10 @@ font-size: 18px;
 
 /* Стиль операторов */
 .operator {
-background-color: #f0b67f;
+font-size: 20px;
+padding: 10px 20px;
+margin: 5px;
+background-color: #dbbd43;
 color: white;
 }
 
@@ -41,7 +44,7 @@ padding: 10px;
 margin-bottom: 20px;
 border: none;
 border-radius: 5px;
-background-color: #eee;
+background-color: #bbdcc7;
 font-size: 24px;
 text-align: right;
 }
@@ -59,5 +62,5 @@ background-color: #6ad7bd;
 background-color: #9f3911;
 }
 .operator:hover {
-background-color: #f48f47;
+background-color: #c6910a;
 }
